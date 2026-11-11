@@ -1,0 +1,37 @@
+{
+  "name": "com.unity.2d.tooling",
+  "displayName": "2D Tooling",
+  "version": "1.0.4",
+  "unity": "6000.3",
+  "description": "A Unity Editor tool to analyze Sprite Atlases usage.",
+  "dependencies": {
+    "com.unity.2d.common": "12.0.4",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.2d.common.tests": "12.0.4",
+    "com.unity.2d.tooling.tests": "1.0.4"
+  },
+  "samples": [
+    {
+      "displayName": "Sample Sprite Atlas Report",
+      "description": "Sample Sprite Atlas report that shows how to use the Sprite Atlas data source to create a report. Note that this sample uses the internal APIs from the package which are subject to change.",
+      "path": "Samples~/Sample Sprite Atlas Report"
+    },
+    {
+      "displayName": "Sample Sprite Data source And Report",
+      "description": "Sample custom data source and report implementation.",
+      "path": "Samples~/Sample Sprite Data source And Report"
+    }
+  ],
+  "repository": {
+    "revision": "c09ee6448426cbd5b4480dd8260c52dced9b4e39",
+    "type": "git",
+    "url": "https://github.cds.internal.unity3d.com/unity/2d.git"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.2d.tooling@1.0/manual/index.html",
+  "_upm": {
+    "changelog": "### Fixed\n- Fixed sprite count reports when a sprite is packed in multiple atlases.\n- Fixed index out of bounds in sprite atlas report.\n- Fixed page count display in sprite atlas report.\n- Fixed selection in sprite atlas report.\n- Fixed sample for sprites packed in multiple atlases."
+  },
+  "_fingerprint": "04422e0232093804a1590b2194239896d20adc42"
+}
